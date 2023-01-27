@@ -104,3 +104,11 @@
     font-size: xx-large;
 }
 
+.gap{
+    top:-200px;
+}
+
+.halfmoon{
+    object-fit:cover;
+}
+
