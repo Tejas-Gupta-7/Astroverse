@@ -14,8 +14,10 @@
   }
   
   .heading{
+       padding-top: 30px;;
+padding-bottom: 30px;
     font-size:100px;
-    background-color: rgba(0, 0, 0, 0.679);
+    background-color: rgba(0, 0, 0, 0.579);
     position: fixed;
     width: 500%;
     overflow: hidden;
