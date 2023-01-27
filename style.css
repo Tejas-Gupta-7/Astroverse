@@ -4,7 +4,7 @@
   }
   body{
     font: 300% / 1.5 Arial;
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(15, 15, 15);
   }
 
   img{
@@ -39,6 +39,7 @@
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
+      top:0;
   }
   .parallaxlayer {
     position: absolute;
