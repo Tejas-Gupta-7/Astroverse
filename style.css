@@ -109,6 +109,7 @@
 }
 
 .halfmoon{
-    width:250%;
+    width:150%;
+    overflow:hidden;
 }
 
