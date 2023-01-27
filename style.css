@@ -61,12 +61,4 @@ padding-bottom: 30px;
     transform: translateZ(-1px) scale(2);
   }
   
-canvas {
-    object-fit: cover;
-    height: 2000px;
-    background: radial-gradient(ellipse at bottom, #000000 0%, #000000 100%);
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: -1;
-  }
+
