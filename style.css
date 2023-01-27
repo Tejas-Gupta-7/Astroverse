@@ -13,6 +13,7 @@
   }
   
   .heading{
+      font-size:80px;
     background-color: rgba(0, 0, 0, 0.679);
     position: fixed;
     width: 500%;
