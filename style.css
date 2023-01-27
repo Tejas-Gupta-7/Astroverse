@@ -5,11 +5,7 @@
   body{
       font-size: 60px;
     font-family:century gothic;
-      background: rgb(8,8,8);
-    background-image: linear-gradient(to right, transparent 49px, rgba(65, 65, 65, 0.607) 1px),
-        linear-gradient(to bottom, transparent 49px, rgba(65, 65, 65, 0.605) 1px);
-    background-size: 50px 50px;
-    background-attachment: fixed;
+      background: rgb(0,0,0);
   }
 
   img{
