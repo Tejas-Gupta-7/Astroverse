@@ -3,7 +3,8 @@
     padding: 0;
   }
   body{
-    font: 300% / 1.5 Arial;
+      font-size: 60px;
+    font-family:century gothic;
     background-color: rgb(15, 15, 15);
   }
 
@@ -13,7 +14,7 @@
   }
   
   .heading{
-      font-size:80px;
+    font-size:100px;
     background-color: rgba(0, 0, 0, 0.679);
     position: fixed;
     width: 500%;
