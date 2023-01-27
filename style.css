@@ -19,7 +19,7 @@
     padding-top: 30px;
     padding-bottom: 30px;
     font-size:100px;
-    background-color: rgba(143, 143, 143, 0.143);
+    background-color: rgb(143, 143, 143, 0.143);
     position: fixed;
     width: 500%;
     overflow: hidden;
@@ -33,7 +33,7 @@
 
 .text{
     font-size: 80px;
-    
+}
   .title {
     color: white;
     position: absolute;
@@ -42,6 +42,7 @@
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     background-size: cover;
+    background-image:rgb(143, 143, 143, 0.174);
   }
   
   
