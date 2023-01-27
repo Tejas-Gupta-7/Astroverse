@@ -64,7 +64,7 @@ padding-bottom: 30px;
 canvas {
     object-fit: cover;
     height: 2000px;
-    background: radial-gradient(ellipse at bottom, #0c1116 0%, #000000 100%);
+    background: radial-gradient(ellipse at bottom, #000000 0%, #000000 100%);
     position: absolute;
     left: 0;
     top: 0;
