@@ -28,7 +28,7 @@
   }
 
 .top{
-    padding-top:190px;
+    padding-top:180px;
 }
 
 .text{
@@ -38,6 +38,7 @@
  .topic{
     font-size: 80px;
     text-align: center;
+     padding-top:30px;
   }
   .title {
     color: white;
