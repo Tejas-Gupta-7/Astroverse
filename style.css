@@ -126,7 +126,7 @@
     text-align: left;
     white-space: nowrap;
     overflow: hidden;
-    font-size:30px;
+    font-size:40px;
     overflow:hidden;
 }
 
@@ -145,7 +145,7 @@
 }
 
 .size{
-    font-size:30px;
+    font-size:40px;
     overflow-x:hidden;
     line-height:37px;
 }
