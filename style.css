@@ -126,7 +126,6 @@
     text-align: left;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-50%);
     font-size:30px;
     overflow:hidden;
 }
@@ -148,4 +147,5 @@
 .size{
     font-size:30px;
     overflow-x:hidden;
+    line-height:37px;
 }
