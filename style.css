@@ -160,9 +160,15 @@
     font-size:28px;
     line-height:39px;
   text-decoration: none;
-  text-align: left;
-  margin-left: 25px;
+  text-align: center;
     font-family:century gothic;
+}
+
+hr{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 25%;
+  color:rgb(75, 75, 75);
 }
 
 :root {
