@@ -165,10 +165,10 @@
 }
 
 hr{
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 8px;
   margin-left: 25%;
-  color:rgb(75, 75, 75);
+  color:rgb(25, 25, 25);
 }
 
 :root {
