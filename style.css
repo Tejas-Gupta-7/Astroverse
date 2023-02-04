@@ -108,6 +108,10 @@
     font-size: xx-large;
 }
 
+.end a{
+  text-decoration: none;
+}
+
 .gap{
     top:-200px;
 }
