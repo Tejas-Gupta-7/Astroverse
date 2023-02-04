@@ -19,7 +19,7 @@ html {
 }
 
 .navbar {
-  margin-top: 160px;
+  margin-top: 190px;
   background-color: rgb(143, 143, 143, 0.174);
   -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
@@ -42,7 +42,7 @@ html {
 .navbar ul li {
   display: table-cell;
   position: relative;
-  padding: 15px 30px;
+  padding: 8px 30px;
   font-size: 30px;
 }
 
