@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +16,72 @@
 ::selection{
     color:#000;
     background: rgb(255, 255, 0, 0.500);
-}    
+}
+
+.navbar {
+  margin-top: 160px;
+  background-color: rgb(143, 143, 143, 0.174);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  transition: top 0.3s;
+}
+
+.navbar ul {
+  overflow: auto;
+  margin: 10px auto 0;
+  padding: 0;
+  list-style: none;
+  display: table;
+  width: 600px;
+  text-align: center;
+}
+
+.navbar ul li {
+  display: table-cell;
+  position: relative;
+  padding: 15px 30px;
+  font-size: 30px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 15px 30px;
+  position: relative;
+}
+
+.navbar ul li a:after {
+  color: #fff;
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.navbar ul li a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+@media screen and (max-height: 300px) {
+  ul {
+    margin-top: 40px;
+  }
+}
+
+
   img{
     object-fit:cover;
     z-index: 1;
