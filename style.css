@@ -164,6 +164,13 @@
     font-family:century gothic;
 }
 
+.link a:hover{
+  color:white;
+}
+.link a:active{
+  color: white;
+}
+
 hr{
   margin-top: 10px;
   margin-bottom: 8px;
