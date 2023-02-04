@@ -161,7 +161,7 @@
     line-height:39px;
   text-decoration: none;
   text-align: center;
-    font-family:century gothic;
+    font-family:monospace;
 }
 
 .link a:hover{
@@ -290,4 +290,5 @@ hr{
   z-index: 2;
   padding-bottom: 25px;
     font-size:37px;
+    font-family:ink free;
 }
