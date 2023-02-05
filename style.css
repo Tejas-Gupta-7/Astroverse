@@ -21,8 +21,8 @@ html {
 .navbar {
   margin-top: 190px;
   background-color: rgb(143, 143, 143, 0.174);
-  -webkit-backdrop-filter: blur(6px);
-  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(9px);
+  backdrop-filter: blur(9px);
   position: fixed;
   z-index: 100;
   width: 100%;
@@ -90,8 +90,8 @@ html {
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
   background-color: rgb(143, 143, 143, 0.174);
-  -webkit-backdrop-filter: blur(6px);
-  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding-top:0;
@@ -119,8 +119,8 @@ html {
     padding-bottom: 30px;
     font-size:100px;
     background-color: rgb(143, 143, 143, 0.143);
-    -webkit-backdrop-filter: blur(6px);
-    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(9px);
+    backdrop-filter: blur(9px);
     position: fixed;
     width: 500%;
     overflow: hidden;
