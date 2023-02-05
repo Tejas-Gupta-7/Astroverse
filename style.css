@@ -116,7 +116,6 @@ html {
   }
   
   .heading{
-    margin-top:0px;
     padding-top: 30px;
     padding-bottom: 30px;
     font-size:100px;
@@ -132,7 +131,6 @@ html {
 
 .top{
   margin-top:320px;
-  padding-bottom:30px;
 }
 
 .text{
@@ -217,33 +215,6 @@ html {
 .halfmoon{
     width:100%;
     overflow-x:hidden;
-}
-
-.line-1{
-    position: relative;
-    top: 50%;  
-    width: 24em;
-    margin-left: 10px;
-    border-right: 2px solid rgba(255,255,255,.75);
-    text-align: left;
-    white-space: nowrap;
-    overflow: hidden;
-    font-size:40px;
-    overflow:hidden;
-}
-
-/* Animation */
-.anim-typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
-}
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 24em;}
-}
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
 }
 
 .size{
@@ -395,90 +366,3 @@ hr{
     font-family: bradley hand,cursive;
 }
 
-
-
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  background:#05080100
-}
-
-.codepen-card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  width: 70%;
-  margin-right: 1rem;
-  padding: 1rem;
-  z-index: 0;
-  cursor: pointer;
-}
-
-.codepen-card:before {
-  content: ' ';
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 88%;
-  height: 88%;
-  background: rgb(143, 143, 143, 0.274);
-  border-radius: 15px;
-  z-index: -1;
-  transition: all 150ms ease;
-}
-
-.codepen-card:hover > .codepen-card-metrics {
-  height: 20px;
-  transition: all 300ms ease;
-}
-
-.codepen-card:hover:before {
-  width: 100%;
-  height: 100%;
-  transition: all 300ms ease;
-}
-
-.codepen-card-image {
-  height: 450px;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 15px;
-  margin-bottom: 1rem;
-}
-
-.codepen-card-user {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-}
-
-.codepen-card-user-image {
-  width: 70px;
-  border-radius: 5px;
-}
-
-.codepen-card-user-details {
-  flex: 1;
-  color: white;
-  padding: 0 0.5rem;
-}
-
-.codepen-card-user-details > .title {
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin: 0;
-}
-
-.codepen-card-user-details > .name {
-  font-size: 20px;
-  margin: 0;
-}
-
-.codepen-card-metrics {
-  height: 0;
-  overflow: hidden;
-  transition: all 150ms ease;
-}
