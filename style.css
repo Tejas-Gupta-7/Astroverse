@@ -16,7 +16,7 @@ html {
 
 ::selection{
     color:#000;
-    background: rgb(255, 255, 0, 0.500);
+    background: #00808071;
 }
 
 .navbar {
