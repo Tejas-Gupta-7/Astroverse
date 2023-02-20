@@ -376,3 +376,43 @@ hr{
     font-family: "Courier New", Courier, monospace;
 }
 
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+
+@media(min-width:1000px){
+  #container{
+    width:60%;
+    margin-left: 20%;
+  }
+
+  .heading {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 50px;
+  }
+
+  .navbar {
+    margin-top: 84px;
+  }
+
+  .navbar ul li {
+    padding: 0px 20px;
+    font-size: 20px;
+  }
+
+  #myBtn {
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 200px; /* Place the button 30px from the right */
+    padding: 20px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 40px; /* Increase font size */
+  }
+
+  .top {
+    padding-top: 140px;
+  }
+  
+}
