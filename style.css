@@ -395,11 +395,11 @@ hr{
   }
 
   .navbar {
-    margin-top: -200px;
+    margin-top: -270px;
   }
 
   .navbar ul li {
-    padding: 0px 20px;
+    padding: 0px 1px;
     font-size: 20px;
   }
 
@@ -411,9 +411,9 @@ hr{
     font-size: 40px; /* Increase font size */
   }
 
-  .top {
+  /*.top {
     padding-top: 200px;
-  }
+  }*/
   
   .gap{
   margin-top: 0px;
