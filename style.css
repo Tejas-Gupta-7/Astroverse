@@ -411,9 +411,9 @@ hr{
     font-size: 40px; /* Increase font size */
   }
 
-  /*.top {
-    padding-top: 200px;
-  }*/
+  .top {
+    padding-top: 170px;
+  }
   
   .gap{
   margin-top: 0px;
