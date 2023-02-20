@@ -395,7 +395,7 @@ hr{
   }
 
   .navbar {
-    margin-top: 84px;
+    margin-top: -200px;
   }
 
   .navbar ul li {
@@ -412,7 +412,7 @@ hr{
   }
 
   .top {
-    padding-top: 140px;
+    padding-top: 200px;
   }
   
 }
