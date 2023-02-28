@@ -446,6 +446,10 @@ hr{
   html {
   scroll-padding-top: 160px;
 }
+  
+  .end{
+    width: 180%;
+    margin-left: -40%;
 
   
 }
