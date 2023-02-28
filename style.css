@@ -443,6 +443,9 @@ hr{
   .navbar ul li a {
   padding: 0px 30px;
 }
+  html {
+  scroll-padding-top: 160px;
+}
 
   
 }
