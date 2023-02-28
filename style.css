@@ -406,12 +406,12 @@ hr{
   }
 
   .navbar ul li {
-    padding: 0px 1px;
+    padding: 0px 0px;
     font-size: 30px;
   }
 
   .topic{
-    font-size: 50px;
+    font-size: 30px;
   }
   
   #myBtn {
@@ -433,6 +433,15 @@ hr{
   
 .album{
   margin-top:0px;
+}
+  
+  .navbar ul li {
+  padding: 8px 8px;
+  font-size: 30px;
+}
+  
+  .navbar ul li a {
+  padding: 0px 30px;
 }
 
   
