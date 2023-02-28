@@ -450,6 +450,9 @@ hr{
   .end{
     width: 180%;
     margin-left: -40%;
-
+  }
+  .photo{
+    height:200px;
+  }
   
 }
