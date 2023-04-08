@@ -156,7 +156,7 @@ html {
   }
 
 .top{
-  margin-top:320px;
+  margin-top:100px;
 }
 
 .text{
@@ -468,4 +468,44 @@ hr{
     height:200px;
   }
   
+}
+
+
+
+.section {
+  margin-top: 40px;
+  height: 10vh;
+  position: relative;
+  width: 100%;
+}
+
+.section::before {
+  animation: bounce 3s ease infinite;
+  top: 3rem;
+  color: #fff;
+  content: '╲╱';
+  font-size: 2rem;
+  height: 4rem;
+  left: 50%;
+  letter-spacing: -1px;
+  line-height: 4rem;
+  margin-left: -3rem;
+  opacity: 0.8;
+  position: absolute;
+  text-align: center;
+  width: 6rem;
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateY(-50%);
+  }
+}
+
+.intro{
+  padding-top: 300px;
+  font-size: medium;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: justify;
 }
