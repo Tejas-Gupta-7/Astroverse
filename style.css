@@ -13,6 +13,19 @@ html {
   font-size: 17px;
 }
 
+.darkfade2{
+  transform: scaleY(-1);
+  height: 200px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+}
+.darkfade{
+  height: 300px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+}
 
   body{
       color:white;
