@@ -494,7 +494,7 @@ html {
 }
 .link a{
   text-decoration: none;
-  color: #ffffff;
+  color: grey;
   font-size: 11px;
   line-height: 80px;
 }
@@ -508,26 +508,30 @@ html {
 .multiverse a{
   line-height: 80px;
   text-decoration: none;
-  color: #ffffff;
+  color: grey;
   font-size:22px;
   font-family: 'Courier New', Courier, monospace;
   margin-left: 10%;
 }
 
 .connect{
+  color: grey;
   font-size: 35px;
   text-align: center;
 }
 .policy a{
+  color: grey;
   text-decoration: none;
   font-size:17px;
 }
 .policy{
+  color: grey;
   font-size:7px;
   text-align: center;
   line-height: 80px;
 }
 .policy a{
+  color: grey;
   font-size:7px;
   line-height: 80px;
 }
