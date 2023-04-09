@@ -520,8 +520,10 @@ html {
 }
 .policy a{
   text-decoration: none;
+  font-size:17px;
 }
 .policy{
+  font-size:17px;
   text-align: center;
   line-height: 50px;
 }
