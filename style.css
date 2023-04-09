@@ -501,7 +501,8 @@ hr{
 
 
 .intro{
-  margin-top: 400px;
+  padding-top:100px;
+  margin-top: 300px;
   font-size: small;
   margin-left: 60px;
   margin-right: 60px;
