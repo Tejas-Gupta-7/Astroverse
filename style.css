@@ -476,6 +476,7 @@ hr{
   height: 10vh;
   position: relative;
   width: 100%;
+  padding-bottom:100px;
 }
 
 .section::before {
