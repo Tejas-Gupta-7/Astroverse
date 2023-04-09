@@ -490,7 +490,7 @@ html {
 .end {
   background-color: rgb(18, 18, 18);
   padding-top: 0px;
-  padding-bottom: 100px;
+  padding-bottom: 130px;
 }
 .link a{
   text-decoration: none;
@@ -515,7 +515,7 @@ html {
 }
 
 .connect{
-  font-size: 25px;
+  font-size: 35px;
   text-align: center;
 }
 .policy a{
@@ -523,12 +523,12 @@ html {
   font-size:17px;
 }
 .policy{
-  font-size:11px;
+  font-size:7px;
   text-align: center;
   line-height: 80px;
 }
 .policy a{
-  font-size:11px;
+  font-size:7px;
   line-height: 80px;
 }
 
@@ -550,7 +550,7 @@ hr {
 .solarsystem {
   z-index: 1;
   margin-left: 40%;
-  margin-bottom: -350px;
+  margin-bottom: -400px;
 }
 
 ul.solarsystem {
