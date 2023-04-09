@@ -503,11 +503,12 @@ hr{
 .intro{
   padding-top:100px;
   margin-top: 300px;
-  font-size: small;
+  font-size: 22px;
   margin-left: 60px;
   margin-right: 60px;
   text-align: justify;
   opacity:0.9;
+  display:inline;
 }
 
 .capital{
