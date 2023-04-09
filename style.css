@@ -481,7 +481,6 @@ hr{
 
 .section::before {
   animation: bounce 3s ease infinite;
-  top: 3rem;
   color: #fff;
   content: '╲╱';
   font-size: 2rem;
@@ -491,7 +490,7 @@ hr{
   line-height: 4rem;
   margin-left: -3rem;
   opacity: 0.8;
-  position: relative;
+  position: absolute;
   text-align: center;
   width: 6rem;
 }
