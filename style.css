@@ -19,7 +19,6 @@ html {
   width: 100%;
   position: fixed;
   top: 0px;
-  z-index:90;
 }
 .darkfade{
   height: 300px;
@@ -142,7 +141,7 @@ html {
   }
   
   .heading{
-    margin-top:-390px;
+    margin-top:-360px;
     padding-top: 30px;
     padding-bottom: 30px;
     font-size:100px;
@@ -154,7 +153,6 @@ html {
     overflow: hidden;
     z-index: 100;
     color: white;
-    top:0;
   }
 
 .top{
