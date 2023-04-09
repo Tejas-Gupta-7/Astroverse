@@ -158,7 +158,9 @@ html {
 .top{
   margin-top:320px;
 }
-
+#stars{
+  padding-top:150px;
+}
 .text{
     font-size: 30px;
 }
