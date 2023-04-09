@@ -499,7 +499,6 @@ hr{
   }
 }
 
-
 .intro{
   padding-top:100px;
   margin-top: 300px;
@@ -508,7 +507,6 @@ hr{
   margin-right: 60px;
   text-align: justify;
   opacity:0.9;
-  display:inline;
 }
 
 .intro::first-letter {
