@@ -479,11 +479,12 @@ hr{
 }
 
 .section::before {
-  margin-top: 20px;
+  margin-top: 60px;
   animation: bounce 3s ease infinite;
   color: #fff;
   content: '╲╱';
   left: 50%;
+  margin-left: -3rem;
   letter-spacing: -1px;
   opacity: 0.8;
   position:absolute;
