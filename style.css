@@ -508,3 +508,8 @@ hr{
   text-align: justify;
   opacity:0.9;
 }
+
+.capital{
+  font-size: 60px;
+  line-height: 10px;
+}
