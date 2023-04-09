@@ -19,6 +19,7 @@ html {
   width: 100%;
   position: fixed;
   top: 0px;
+  z-index:90;
 }
 .darkfade{
   height: 300px;
@@ -153,6 +154,7 @@ html {
     overflow: hidden;
     z-index: 100;
     color: white;
+    top:0;
   }
 
 .top{
