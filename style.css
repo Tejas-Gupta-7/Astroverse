@@ -471,7 +471,6 @@ hr{
 }
 
 
-
 .section {
   margin-top: 40px;
   height: 10vh;
@@ -480,19 +479,15 @@ hr{
 }
 
 .section::before {
+  margin-top: 20px;
   animation: bounce 3s ease infinite;
   color: #fff;
   content: '╲╱';
-  font-size: 2rem;
-  height: 4rem;
   left: 50%;
   letter-spacing: -1px;
-  line-height: 4rem;
-  margin-left: -3rem;
   opacity: 0.8;
-  position: absolute;
+  position:absolute;
   text-align: center;
-  width: 6rem;
 }
 
 @keyframes bounce {
@@ -500,6 +495,7 @@ hr{
     transform: translateY(-50%);
   }
 }
+
 
 .intro{
   padding-top: 300px;
