@@ -498,8 +498,8 @@ hr{
 
 
 .intro{
-  padding-top: 300px;
-  font-size: medium;
+  margin-top: 300px;
+  font-size: small;
   margin-left: 40px;
   margin-right: 40px;
   text-align: justify;
