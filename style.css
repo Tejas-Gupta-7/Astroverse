@@ -45,7 +45,7 @@ html {
 }
 
 .navbar {
-  margin-top: -120px;
+  margin-top: -130px;
   background-color: rgb(143, 143, 143, 0.174);
   -webkit-backdrop-filter: blur(9px);
   backdrop-filter: blur(9px);
