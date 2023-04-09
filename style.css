@@ -495,8 +495,8 @@ html {
 .link a{
   text-decoration: none;
   color: #ffffff;
-  font-size: 17px;
-  line-height: 50px;
+  font-size: 11px;
+  line-height: 80px;
 }
 
 .link {
@@ -506,7 +506,7 @@ html {
 }
 
 .multiverse a{
-  line-height: 50px;
+  line-height: 80px;
   text-decoration: none;
   color: #ffffff;
   font-size:22px;
@@ -525,7 +525,7 @@ html {
 .policy{
   font-size:11px;
   text-align: center;
-  line-height: 50px;
+  line-height: 80px;
 }
 
 
