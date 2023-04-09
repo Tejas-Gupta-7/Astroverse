@@ -484,11 +484,10 @@ hr{
   color: #fff;
   content: '╲╱';
   left: 50%;
-  margin-left: -3rem;
+  margin-left: -5rem;
   letter-spacing: -1px;
   line-height: 4rem;
-  margin-left: -3rem;
-  opacity: 0.8;
+  opacity: 1;
   position:absolute;
   text-align: center;
 }
@@ -507,4 +506,5 @@ hr{
   margin-left: 60px;
   margin-right: 60px;
   text-align: justify;
+  opacity:0.9;
 }
