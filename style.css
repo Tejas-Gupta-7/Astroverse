@@ -45,7 +45,7 @@ html {
 }
 
 .navbar {
-  margin-top: -140px;
+  margin-top: -130px;
   background-color: rgb(143, 143, 143, 0.174);
   -webkit-backdrop-filter: blur(9px);
   backdrop-filter: blur(9px);
@@ -141,7 +141,7 @@ html {
   }
   
   .heading{
-    margin-top:-330px;
+    margin-top:-320px;
     padding-top: 30px;
     padding-bottom: 30px;
     font-size:100px;
