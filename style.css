@@ -502,7 +502,7 @@ hr{
 .intro{
   padding-top:100px;
   margin-top: 300px;
-  font-size: 22px;
+  font-size: 17px;
   margin-left: 60px;
   margin-right: 60px;
   text-align: justify;
@@ -510,5 +510,5 @@ hr{
 }
 
 .intro::first-letter {
-  font-size: 300%;
+  font-size: 600%;
 }
