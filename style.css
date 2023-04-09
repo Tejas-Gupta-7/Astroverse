@@ -536,7 +536,6 @@ hr {
 }
 
 
-
 /* Solar System Styles */
 
 .clearfix {
@@ -547,13 +546,13 @@ hr {
 
 .solarsystem {
   z-index: 1;
-  margin-left: 50%;
-  margin-bottom: -250px;
+  margin-left: 40%;
+  margin-bottom: -350px;
 }
 
 ul.solarsystem {
   position: relative;
-  height: 320px;
+  height: 480px;
   list-style: none;
   -webkit-transition: all 0.09s ease-in;
   -moz-transition: all 0.09s ease-in;
@@ -566,18 +565,18 @@ ul.solarsystem li {
   text-indent: -9999px;
   display: block;
   position: absolute;
-  border: 1px solid #ffffff38;
+  border: 2px solid #ffffff38;
   /*    opacity: 0.7;*/
 }
 
 ul.solarsystem li span {
   display: block;
   position: absolute;
-  width: 5px;
-  height: 5px;
-  -webkit-border-radius: 2.5px;
-  -moz-border-radius: 2.5px;
-  border-radius: 2.5px;
+  width: 7.5px;
+  height: 7.5px;
+  -webkit-border-radius: 3.75px;
+  -moz-border-radius: 3.75px;
+  border-radius: 3.75px;
 }
 
 ul.solarsystem li.active {
@@ -601,11 +600,11 @@ ul.solarsystem li.active.earth .moon {
 }
 
 ul.solarsystem li.sun {
-  width: 20px;
-  height: 20px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
   background: #fc3;
   background-image: -webkit-gradient(linear,
           left bottom,
@@ -615,8 +614,8 @@ ul.solarsystem li.sun {
   background-image: -moz-linear-gradient(center bottom,
           rgb(204, 153, 0) 22%,
           rgb(255, 219, 112) 100%);
-  top: 151px;
-  left: 231px;
+  top: 226.6px;
+  left: 346.5px;
   border: none;
   -webkit-box-shadow: 0 0 50px #c90;
   -moz-box-shadow: 0 0 50px #c90;
@@ -629,39 +628,39 @@ ul.solarsystem li.sun {
 }
 
 ul.solarsystem li.sun span {
-  width: 30px;
-  height: 30px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px;
+  width: 45px;
+  height: 45px;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  border-radius: 45px;
 }
 
 ul.solarsystem li.earth {
-  width: 110px;
-  height: 110px;
-  -webkit-border-radius: 56px;
-  -moz-border-radius: 56px;
-  border-radius: 56px;
-  top: 105px;
-  left: 185px;
+  width: 165px;
+  height: 165px;
+  -webkit-border-radius: 84px;
+  -moz-border-radius: 84px;
+  border-radius: 84px;
+  top: 157.5px;
+  left: 277.5px;
   z-index: 97;
 }
 
 ul.solarsystem li.earth span {
   background: #06c;
-  top: 28px;
-  left: 2.5px;
+  top: 42px;
+  left: 3.75px;
 }
 
 ul.solarsystem li.earth span.moon {
-  width: 2px;
-  height: 2px;
-  -webkit-border-radius: 1px;
-  -moz-border-radius: 1px;
-  border-radius: 1px;
+  width: 3px;
+  height: 3px;
+  -webkit-border-radius: 1.5px;
+  -moz-border-radius: 1.5px;
+  border-radius: 1.5px;
   background: #ccc;
-  top: 6px;
-  left: 6px;
+  top: 9px;
+  left: 9px;
 }
 
 
@@ -750,6 +749,8 @@ ul.solarsystem li.earth span {
       opacity: 0;
   }
 }
+
+
 
 
 
