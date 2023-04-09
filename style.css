@@ -511,7 +511,6 @@ hr{
   display:inline;
 }
 
-.capital{
-  font-size: 60px;
-  line-height: 10px;
+.intro::first-letter {
+  font-size: 300%;
 }
