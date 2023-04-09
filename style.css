@@ -488,7 +488,10 @@ html {
 
 
 .end {
-  background-color: rgb(18, 18, 18);
+   background: rgb(12, 12, 12);
+  background-image: linear-gradient(to right, transparent 29px, rgba(65, 65, 65, 0.273) 1px),
+        linear-gradient(to bottom, transparent 29px, rgba(65, 65, 65, 0.273) 1px);
+        background-size: 30px 30px;
   padding-top: 0px;
   padding-bottom: 150px;
 }
