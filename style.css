@@ -768,6 +768,7 @@ ul.solarsystem li.earth span {
   height: 100vh;
 }
 .feature-half{
+  margin-top:140px;
   height: 100vh;
     width:100%;
     display: inline;
