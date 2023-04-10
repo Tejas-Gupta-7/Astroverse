@@ -766,6 +766,7 @@ ul.solarsystem li.earth span {
   display:flex;
   display: inline;
   height: 100vh;
+   width: 100%;
 }
 .feature-half{
   margin-top:140px;
@@ -781,6 +782,7 @@ ul.solarsystem li.earth span {
   align-items:flex-start;
   justify-content:flex-start;
   background-color: #ddd;
+   width: 100%;
 }
 
 .feature-bg, .feature-top:before, .feature-top:after {
@@ -793,17 +795,21 @@ ul.solarsystem li.earth span {
   background-image: url('Picsart_23-04-09_23-13-24-586.jpg');
   height: 100vh;
   z-index: 20;
+   width: 100%;
   
 }
 .feature-bottom {
   background-image: url('Picsart_23-04-09_23-13-24-586.jpg');
   filter: contrast(0.96);
   z-index: 10;
+   width: 100%;
 }
 .new{
   margin-top: -70px;
   margin-left: 20px;
   position:relative;
+  font-size: 10px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 
