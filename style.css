@@ -806,9 +806,9 @@ ul.solarsystem li.earth span {
 }
 .new{
   margin-top: -90px;
-  margin-left: 40px;
+  margin-left: 50px;
   position:relative;
-  font-size: 20px;
+  font-size: 14px;
   font-family: 'Courier New', Courier, monospace;
 }
 
