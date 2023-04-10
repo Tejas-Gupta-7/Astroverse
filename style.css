@@ -761,6 +761,15 @@ ul.solarsystem li.earth span {
   margin-top:20px;
 }
 
+.plane {
+  margin-top: 230px;
+  font-size: 60px;
+  z-index: 0;
+}
+
+.iss {
+  z-index: 3;
+}
 
 .signal{
   margin-bottom: 30px;
