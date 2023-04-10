@@ -756,60 +756,9 @@ ul.solarsystem li.earth span {
   }
 }
 
-
-
-/*FILTERS*/
-
-
-.feature-scroll-container {
-  position: relative;
-  display:flex;
-  display: inline;
-  height: 30vh;
-   width: 100%;
-}
-.feature-half{
+.topimage{
+  width:100%;
   margin-top:140px;
-  height: 30vh;
-    width:100%;
-    display: inline;
-    float: left;
-    overflow-y: scroll;
-}
-.feature-content{
-  height:30vh;
-  display:inline-block;
-  align-items:flex-start;
-  justify-content:flex-start;
-  background-color: #ddd;
-   width: 100%;
-}
-
-.feature-bg, .feature-top:before, .feature-top:after {
-  background-attachment: fixed;
-  background-size:contain;
-  width: 100%;
-  height: 30vh;
-}
-.feature-top {
-  background-image: url('Picsart_23-04-09_23-13-24-586.jpg');
-  height: 30vh;
-  z-index: 20;
-   width: 100%;
-  
-}
-.feature-bottom {
-  background-image: url('Picsart_23-04-09_23-13-24-586.jpg');
-  filter: contrast(0.96);
-  z-index: 10;
-   width: 100%;
-}
-.new{
-  margin-top: -120px;
-  margin-left: 50px;
-  position:relative;
-  font-size: 18px;
-  font-family: 'Courier New', Courier, monospace;
 }
 
 
