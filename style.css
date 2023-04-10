@@ -480,10 +480,6 @@ html {
   font-size: 600%;
 }
 
-.topimage{
-  margin-top: 140px;
-  width: 100%;
-}
 
 
 
@@ -760,6 +756,54 @@ ul.solarsystem li.earth span {
   }
 }
 
+
+
+/*FILTERS*/
+
+
+.feature-scroll-container {
+  position: relative;
+  display:flex;
+  display: inline;
+  height: 100vh;
+}
+.feature-half{
+  height: 100vh;
+    width:100%;
+    display: inline;
+    float: left;
+    overflow-y: scroll;
+}
+.feature-content{
+  height:100vh;
+  display:inline-block;
+  align-items:flex-start;
+  justify-content:flex-start;
+  background-color: #ddd;
+}
+
+.feature-bg, .feature-top:before, .feature-top:after {
+  background-attachment: fixed;
+  background-size:cover;
+  width: 100%;
+  height: 100vh;
+}
+.feature-top {
+  background-image: url('Picsart_23-04-09_23-13-24-586.jpg');
+  height: 100vh;
+  z-index: 20;
+  
+}
+.feature-bottom {
+  background-image: url('Picsart_23-04-09_23-13-24-586.jpg');
+  filter: contrast(0.96);
+  z-index: 10;
+}
+.new{
+  margin-top: -70px;
+  margin-left: 20px;
+  position:relative;
+}
 
 
 
