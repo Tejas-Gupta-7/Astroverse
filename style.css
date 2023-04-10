@@ -758,11 +758,11 @@ ul.solarsystem li.earth span {
 
 .topimage{
   width:100%;
-  margin-top:4px;
+  margin-top:0px;
 }
 
 .plane {
-  margin-top: 100px;
+  margin-top: 80px;
   font-size: 60px;
   z-index: 0;
 }
