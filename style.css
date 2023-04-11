@@ -777,8 +777,8 @@ ul.solarsystem li.earth span {
   font-size: 50px;
   text-shadow: 0 0 20px #ffffff, 0 0 35px #ffffff, 0 0 40px #ffffff, 0 0 60px #ffffff, 0 0 80px #ffffff, 0 0 30px #ffffff, 0 0 108px #ffffff;
   color: #ffffff;
-  animation: blink 10s infinite;
-  -webkit-animation: blink 5s infinite;
+  animation: blink 1s infinite;
+  -webkit-animation: blink 1s infinite;
   z-index: -1;
 }
 
