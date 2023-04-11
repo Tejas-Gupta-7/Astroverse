@@ -827,12 +827,12 @@ ul.solarsystem li.earth span {
 }
 
 .move{
-  margin-top: 60px;
+  margin-top: 20px;
   position: absolute;
 }
 
 .satellite{
-  height: 2px;
+  height: 4px;
 }
 #s2{
   padding-left: 700px;
