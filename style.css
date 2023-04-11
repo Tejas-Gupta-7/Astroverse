@@ -826,7 +826,26 @@ ul.solarsystem li.earth span {
   }
 }
 
+.move{
+  margin-top: 200px;
+  position: absolute;
+}
 
+.satellite{
+  height: 2px;
+}
+#s2{
+  padding-left: 700px;
+}
+#s3{
+  padding-left: 300px;
+}
+#s4{
+  padding-left: 1000px;
+}
+#s5{
+  padding-left: 100px;
+}
 
 
 
