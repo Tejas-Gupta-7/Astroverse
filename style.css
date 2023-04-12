@@ -878,7 +878,7 @@ ul.solarsystem li.earth span {
 
 @keyframes slide_img {
   20% {
-    background-image: url(stars.jpg);
+    background-image: url(IMG_20220809_235938.jpg);
   }
    
   40% {
@@ -890,7 +890,7 @@ ul.solarsystem li.earth span {
   }
   
   80% {
-    background-image: url(IMG_20230119_230349.jpg);
+    background-image: url(IMG_20220809_235938.jpg);
   }
   
   100% {
