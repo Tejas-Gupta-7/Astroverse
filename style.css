@@ -869,7 +869,7 @@ ul.solarsystem li.earth span {
   background-size: contain;
   background-position: center;
   background-color: rgb(0,0,0,.9);
-  animation: slide_img 30s infinite;
+  animation: slide_img 20s infinite;
 }
 
 .slide_img{
