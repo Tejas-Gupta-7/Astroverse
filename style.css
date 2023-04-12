@@ -848,38 +848,54 @@ ul.solarsystem li.earth span {
 }
 
 
-.image-slider {
-	position:relative;
-	display: inline-block;
-	line-height: 0;
-  margin-left: auto;
-  margin-right: auto;
+
+
+
+.slider {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
 }
-.image-slider img {
-	user-select: none;
-	max-width: 900px;
+
+.slider_cont{
+  /* background-image responsive */
+  width: 100%;
+  height: 100%;
+  background-image: url(IMG_20230119_230349.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: rgb(0,0,0,.9);
+  animation: slide_img 30s infinite;
 }
-.image-slider > div {
-  z-index: 90;
-	position: absolute;
-	top: 0; bottom: 0; left: 0;
-	width: 25px;
-	max-width: 100%;
-	overflow: hidden;
-	resize: horizontal;
+
+.slide_img{
+  width: 100%;
 }
-.image-slider > div:before {
-	content: '';
-	display: block;
-	width: 13px; 
-	height: 13px;
-	overflow: hidden;
-	position: absolute;
-	resize: horizontal;
-	right: 3px; bottom: 3px;
-	background-clip: content-box;
-	background: linear-gradient(-45deg, black 50%, transparent 0);
-	-webkit-filter: drop-shadow(0 0 2px black);
-	filter: drop-shadow(0 0 2px black);
-}
+
+@keyframes slide_img {
+  20% {
+    background-image: url(stars.jpg);
+  }
+   
+  40% {
+    background-image: url(IMG_20230119_230349.jpg);
+  }
+  
+  60% {
+    background-image: url(stars.jpg);
+  }
+  
+  80% {
+    background-image: url(IMG_20230119_230349.jpg);
+  }
+  
+  100% {
+    background-image: url(stars.jpg);
+  }
+ }
+
 
