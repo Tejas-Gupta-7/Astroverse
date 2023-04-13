@@ -864,7 +864,7 @@ ul.solarsystem li.earth span {
   /* background-image responsive */
   width: 100%;
   height: 100%;
-  background-image: url(IMG_20230119_230349.jpg);
+  background-image: url(stars1.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -878,23 +878,23 @@ ul.solarsystem li.earth span {
 
 @keyframes slide_img {
   20% {
-    background-image: url(IMG_20220809_235938.jpg);
+    background-image: url(stars2.jpg);
   }
    
   40% {
-    background-image: url(Picsart_23-04-09_23-13-24-586.jpg);
+    background-image: url(stars3.jpg);
   }
   
   60% {
-    background-image: url(stars.jpg);
+    background-image: url(stars4.jpg);
   }
   
   80% {
-    background-image: url(IMG_20220809_235938.jpg);
+    background-image: url(stars1.jpg);
   }
   
   100% {
-    background-image: url(IMG_20230119_230349.jpg);
+    background-image: url(stars1.jpg);
   }
  }
 
