@@ -832,7 +832,7 @@ ul.solarsystem li.earth span {
 }
 
 .satellite{
-  height: 4px;
+  height: 3px;
 }
 #s2{
   padding-left: 700px;
@@ -890,7 +890,7 @@ ul.solarsystem li.earth span {
   }
   
   80% {
-    background-image: url(stars1.jpg);
+    background-image: url(stars2.jpg);
   }
   
   100% {
