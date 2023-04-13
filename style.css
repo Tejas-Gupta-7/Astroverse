@@ -370,75 +370,6 @@ html {
 }
 
 
-@media(min-width:1000px){
-  #container{
-    width:60%;
-    margin-left: 20%;
-  }
-
-  .heading {
-    padding-top: 7px;
-    padding-bottom: 7px;
-    font-size: 50px;
-  }
-
-  .navbar {
-    margin-top: -240px;
-  }
-
-  .navbar ul li {
-    padding: 0px 0px;
-    font-size: 30px;
-  }
-
-  .topic{
-    font-size: 30px;
-  }
-  
-  #myBtn {
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 200px; /* Place the button 30px from the right */
-    padding: 20px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 40px; /* Increase font size */
-  }
-
-  .top {
-    padding-top: 0px;
-  }
-  
-  .gap{
-  margin-top: 0px;
-}
-  
-  
-.album{
-  margin-top:0px;
-}
-  
-  .navbar ul li {
-  padding: 8px 8px;
-  font-size: 30px;
-}
-  
-  .navbar ul li a {
-  padding: 0px 30px;
-}
-  html {
-  scroll-padding-top: 160px;
-}
-  
-  .end{
-    width: 180%;
-    margin-left: -40%;
-  }
-  .photo{
-    height:200px;
-  }
-  
-}
-
-
 .section {
   margin-top: 40px;
   height: 10vh;
@@ -898,4 +829,157 @@ ul.solarsystem li.earth span {
   }
  }
 
+
+
+/*====================RESPONSIVE=======================*/
+
+@media(min-width:1000px) {
+  #container {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .heading {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 40px;
+  }
+
+  .navbar {
+    margin-top: 60px;
+  }
+
+  .navbar ul li {
+    padding: 0px 17px;
+    font-size: 17px;
+  }
+
+  #myBtn {
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 18%;
+    padding: 20px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 40px;
+    /* Increase font size */
+    cursor: none;
+  }
+
+  .top {
+    margin-top: -110px;
+  }
+
+  .plane {
+    margin-top: 110px;
+    font-size: 20px;
+    z-index: 0;
+
+  }
+
+  .iss {
+    z-index: 3;
+    height: 20px;
+  }
+
+  .signal {
+    font-size: 20px;
+  }
+
+  .move {
+    margin-top: -440px;
+  }
+
+  .satellite {
+    height: 4px;
+  }
+
+
+  .intro {
+    font-size: larger;
+    margin-top: -190px;
+  }
+
+  .section {
+    margin-top: -14px;
+    height: 10vh;
+    padding-bottom: 0px;
+  }
+
+  .section::before {
+    margin-top: 0px;
+  }
+
+  .slider {
+    margin-top: -230px;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .darkfade2 {
+    transform: scaleY(-1);
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+  }
+
+  .darkfade {
+    height: 200px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+  }
+
+  .topic {
+    font-size: 40px;
+  }
+
+  .gap {
+    margin-top: -10px;
+  }
+
+  .marquee__group img {
+    height: 200px;
+  }
+
+
+    .wrapper img {
+      height: 230px;
+      width: 190px;
+      background-color: #5656567e;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 50px;
+      border-radius: 5px;
+      z-index: 1;
+    }
+
+    .gap .parallax .parallaxlayer--back .title img{
+      height: 600px;
+    }
+
+    
+.solarsystem {
+  z-index: 1;
+  margin-left: 27%;
+  margin-bottom: -350px;
+}
+  
+  
+  html {
+  scroll-padding-top: 160px;
+}
+  
+  .end{
+    width: 180%;
+    margin-left: -40%;
+  }
+  .photo{
+    height:200px;
+  }
+  
+}
 
