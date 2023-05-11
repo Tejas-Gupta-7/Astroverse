@@ -400,7 +400,7 @@ html {
 
 .intro{
   margin-top:-640px;
-  font-size: 43px;
+  font-size: 33px;
   margin-left: 60px;
   margin-right: 60px;
   text-align: justify;
@@ -425,7 +425,7 @@ html {
 .link a{
   text-decoration: none;
   color: grey;
-  font-size: 42px;
+  font-size: 32px;
   line-height: 80px;
 }
 
