@@ -408,7 +408,7 @@ html {
 }
 
 .intro::first-letter {
-  font-size: 600%;
+  font-size: 500%;
 }
 
 
@@ -425,7 +425,7 @@ html {
 .link a{
   text-decoration: none;
   color: grey;
-  font-size: 32px;
+  font-size: 26px;
   line-height: 80px;
 }
 
@@ -452,17 +452,17 @@ html {
 .policy a{
   color: grey;
   text-decoration: none;
-  font-size:37px;
+  font-size:22px;
 }
 .policy{
   color: grey;
-  font-size:27px;
+  font-size:16px;
   text-align: center;
   line-height: 80px;
 }
 .policy a{
   color: grey;
-  font-size:27px;
+  font-size:16px;
   line-height: 80px;
 }
 
