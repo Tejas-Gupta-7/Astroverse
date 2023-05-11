@@ -400,7 +400,7 @@ html {
 
 .intro{
   margin-top:-640px;
-  font-size: 13px;
+  font-size: 23px;
   margin-left: 60px;
   margin-right: 60px;
   text-align: justify;
@@ -425,7 +425,7 @@ html {
 .link a{
   text-decoration: none;
   color: grey;
-  font-size: 11px;
+  font-size: 22px;
   line-height: 80px;
 }
 
@@ -982,4 +982,5 @@ ul.solarsystem li.earth span {
   }
   
 }
+
 
