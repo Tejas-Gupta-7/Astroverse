@@ -902,7 +902,7 @@ ul.solarsystem li.earth span {
   }
 
   .plane {
-    margin-top: 170px;
+    margin-top: 150px;
     font-size: 20px;
     z-index: 0;
 
@@ -945,7 +945,7 @@ ul.solarsystem li.earth span {
   }
 
   .slider {
-    margin-top: -100px;
+    margin-top: -170px;
     width: 80%;
     margin-left: 10%;
   }
