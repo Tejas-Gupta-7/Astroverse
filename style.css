@@ -846,6 +846,9 @@ ul.solarsystem li.earth span {
 /*====================RESPONSIVE=======================*/
 
 @media(min-width:1000px) {
+  .text{
+    font-size: 14px;
+}
   
   .details{
   margin-top:-12px;
