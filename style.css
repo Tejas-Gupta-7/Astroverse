@@ -1014,6 +1014,14 @@ ul.solarsystem li.earth span {
   .photo{
     height:200px;
   }
+
+.navbar ul li {
+  padding: 0px 30px;
+}
+
+.navbar ul li a {
+  padding: 0px 30px;
+}
   
 }
 
