@@ -433,7 +433,10 @@ html {
 .link {
   text-align: left;
   margin-left: 10%;
+}
 
+.link a:hover{
+  color:white;
 }
 
 .multiverse a{
@@ -443,6 +446,9 @@ html {
   font-size:22px;
   font-family: 'Courier New', Courier, monospace;
   margin-left: 10%;
+}
+.multiverse a:hover{
+  color:white;
 }
 
 .connect{
