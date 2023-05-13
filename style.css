@@ -867,7 +867,7 @@ ul.solarsystem li.earth span {
   }
 
   .heading {
-    margin-top:400px;
+    margin-top:200px;
     padding-top: 4px;
     padding-bottom: 4px;
     font-size: 40px;
@@ -876,7 +876,7 @@ ul.solarsystem li.earth span {
   margin-top:-100px;
 }
   .navbar {
-    margin-top: 160px;
+    margin-top: 60px;
   }
 
   .navbar ul li {
