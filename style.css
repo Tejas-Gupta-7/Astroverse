@@ -868,7 +868,9 @@ ul.solarsystem li.earth span {
     padding-bottom: 4px;
     font-size: 40px;
   }
-
+.album{
+  margin-top:-100px;
+}
   .navbar {
     margin-top: 160px;
   }
