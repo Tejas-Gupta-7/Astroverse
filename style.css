@@ -456,6 +456,11 @@ html {
   font-size: 35px;
   text-align: center;
 }
+
+.connect a img:hover{
+  filter:invert(1);
+}
+
 .policy a{
   color: grey;
   text-decoration: none;
