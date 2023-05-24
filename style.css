@@ -462,7 +462,9 @@ html {
 .colour:hover{
   pointer-events: auto;
   filter:invert(1);
-  transform:scale(1.01);
+  transform:scale(1.03);
+  transform-duration:0.4s;
+  transition-timing-function: ease-in-out;
 }
 
 .policy a{
