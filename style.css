@@ -456,9 +456,13 @@ html {
   font-size: 35px;
   text-align: center;
 }
-
+.colour{
+  pointer-events: auto;
+}
 .colour:hover{
+  pointer-events: auto;
   filter:invert(1);
+  transform:scale(1.01);
 }
 
 .policy a{
