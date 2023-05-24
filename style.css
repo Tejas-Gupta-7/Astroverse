@@ -471,7 +471,7 @@ html {
 }
 .colourgmail:hover{
   pointer-events: auto;
-  filter:invert(0);
+  filter:invert(1);
   transform:scale(1.03);
   transform-duration:0.4s;
   transition-timing-function: ease-in-out;
