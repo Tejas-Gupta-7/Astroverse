@@ -466,6 +466,16 @@ html {
   transform-duration:0.4s;
   transition-timing-function: ease-in-out;
 }
+.colourgmail{
+  pointer-events: auto;
+}
+.colourgmail:hover{
+  pointer-events: auto;
+  filter:invert(0);
+  transform:scale(1.03);
+  transform-duration:0.4s;
+  transition-timing-function: ease-in-out;
+}
 
 .policy a{
   color: grey;
