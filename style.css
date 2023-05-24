@@ -1029,6 +1029,11 @@ ul.solarsystem li.earth span {
   .connect{
   font-size: 25px;
 }
+  .satellites{
+    width: 80%;
+    margin-left: 10%;
+    margin-right:10%;
+  }
   
 }
 
