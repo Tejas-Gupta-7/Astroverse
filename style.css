@@ -13,7 +13,7 @@ html {
   top: 0;
   left: 0;
   width: 100%;
-  height: 3px;
+  height: 5px;
   background-color: #000000;
   z-index: 9999;
 }
@@ -22,7 +22,7 @@ html {
   width: 0;
   height: 100%;
   background-color: #02f2fa;
-  animation: progress 2s linear infinite;
+  animation: progress 3s linear infinite;
 }
 
 @keyframes progress {
@@ -36,7 +36,7 @@ html {
 
 #loader-text {
   position: absolute;
-  margin-top: 100%;
+  margin-top: 85%;
   left: 50%;
   transform: translateX(-50%);
   font-size: 70px;
