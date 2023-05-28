@@ -12,7 +12,7 @@ html {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 50%;
   height: 5px;
   background-color: #000000;
   z-index: 9999;
