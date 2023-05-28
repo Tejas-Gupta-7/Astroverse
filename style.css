@@ -1127,7 +1127,7 @@ textarea {
     color: #fff;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 12px;
+    padding-top: 14px;
     /*margin-bottom: 20px;*/
     overflow: hidden;
 }
@@ -1144,11 +1144,11 @@ input {
     background-clip: padding-box;
     display: block;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     color: #fff;
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 13px;
 }
 
 input[type=submit] {
