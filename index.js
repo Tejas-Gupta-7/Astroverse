@@ -23,7 +23,7 @@ window.addEventListener("load", function() {
   var loaderText = document.getElementById("loader-text");
   var preloader = document.getElementById("preloader");
   // Delay in milliseconds before hiding the preloader (5 seconds in this example)
-  var delayInMilliseconds = 2500;
+  var delayInMilliseconds = 2000;
 
   // Hide the preloader after the specified delay
   setTimeout(function() {
