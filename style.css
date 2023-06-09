@@ -547,10 +547,10 @@ hr {
   transition:7s;
 }
 .clearfix:hover {
-        transform: rotateX(180deg);
-        -ms-transform: skew(180deg, -20deg); /* IE 9 */
-        -webkit-transform: skew(180deg, -20deg); /* Safari */
-        transform: skew(180deg, -20deg);
+        transform: rotateX(90deg);
+        -ms-transform: skew(70deg, -20deg); /* IE 9 */
+        -webkit-transform: skew(70deg, -20deg); /* Safari */
+        transform: skew(70deg, -20deg);
     }
 
 .solarsystem {
