@@ -42,14 +42,14 @@ html {
 }
 
 .feature-top {
-  background-image: url('IMG_20230116_220144.jpg');
+  background-image: url('constellations.jpg');
   height: 50vh;
   z-index: 20;
 
 }
 
 .feature-bottom {
-  background-image: url('IMG_20230217_125451.jpg');
+  background-image: url('ariestaurus.jpg');
   filter: contrast(1);
   z-index: 20;
 }
