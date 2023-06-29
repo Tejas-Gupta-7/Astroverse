@@ -27,7 +27,7 @@ html {
 }
 
 .feature-content {
-  height: 50vh;
+  height: 28vh;
   display: inline-block;
   align-items: flex-start;
   justify-content: flex-start;
@@ -46,7 +46,7 @@ html {
 .feature-top {
   background-image: url('constellations.jpg');
   background-size:contain;
-  height: 50vh;
+  height: 28vh;
   z-index: 20;
 
 }
