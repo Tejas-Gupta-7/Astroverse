@@ -17,6 +17,7 @@ html {
 }
 
 .feature-half {
+    margin-top: 100px;
   height: 28vh;
   width: 100%;
   display: inline;
