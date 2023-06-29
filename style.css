@@ -8,6 +8,11 @@ html {
     padding: 0;
   }
 
+.nasa{
+  width: 100%;
+  height: 300px;
+  border-width: 0;
+}
 
 .feature-scroll-container {
   position: relative;
