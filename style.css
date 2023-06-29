@@ -12,6 +12,7 @@ html {
   width: 100%;
   height: 300px;
   border-width: 0;
+  margin-bottom:500px;
 }
 
 .feature-scroll-container {
