@@ -13,11 +13,11 @@ html {
   position: relative;
   display: flex;
   display: inline;
-  height: 50vh;
+  height: 28vh;
 }
 
 .feature-half {
-  height: 50vh;
+  height: 28vh;
   width: 100%;
   display: inline;
   float: left;
