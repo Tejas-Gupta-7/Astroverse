@@ -50,7 +50,7 @@ html {
 }
 
 .feature-top {
-  background-image: url('constellations.jpg');
+  background-image: url('constellations.png');
   background-size:contain;
   height: 28vh;
   z-index: 20;
@@ -58,7 +58,7 @@ html {
 }
 
 .feature-bottom {
-  background-image: url('ariestaurus.jpg');
+  background-image: url('ariestaurus.png');
   background-size:contain;
   filter: contrast(1);
   z-index: 20;
