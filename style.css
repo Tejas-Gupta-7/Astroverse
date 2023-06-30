@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 320px;
+  scroll-padding-top: 290px;
 }
 
 *{
@@ -1159,8 +1159,9 @@ ul.solarsystem li.earth span {
   
 }
 #sign{
-  padding-top:20px;
+  padding-top:0px;
     height: 80px;
+  margin-top:-10px;
 }
 
 form {
