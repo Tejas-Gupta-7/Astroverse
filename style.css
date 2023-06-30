@@ -1331,3 +1331,12 @@ textarea:focus {
     text-align: center;
     font-size:50px;
 }
+
+@media(max-width:200px) {
+  .navbar ul li {
+    font-size: 7px;
+  }
+  .toplink{
+    fontsize:20px;
+  }
+}
