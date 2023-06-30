@@ -1332,7 +1332,7 @@ textarea:focus {
     font-size:50px;
 }
 
-@media(max-width:200px) {
+@media(min-width:200px) {
   .navbar ul li a{
     font-size: 7px;
   }
