@@ -1333,13 +1333,13 @@ textarea:focus {
 }
 
 @media(max-width:250px) {
+  .toplink{
+    font-size:20px;
+  }
   .navbar ul li a{
     font-size: 7px;
   }
   .heading a{
-    fontsize:20px;
-  }
-  .toplink{
-    fontsize:20px;
+    font-size:20px;
   }
 }
