@@ -1332,14 +1332,14 @@ textarea:focus {
     font-size:50px;
 }
 
-@media(max-width:250px) {
-  .toplink{
-    font-size:20px;
+@media(max-width:350px) {
+  .heading{
+    display: none;
   }
-  .navbar ul li a{
-    font-size: 7px;
+  .navbar{
+    display: none;
   }
-  .heading a{
-    font-size:20px;
-  }
+.iss{
+  display: none;
+}
 }
