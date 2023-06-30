@@ -13,6 +13,7 @@ html {
   height: 700px;
   border-width: 0;
   margin-bottom:500px;
+  margin-top:-150px;
 }
 
 .feature-scroll-container {
